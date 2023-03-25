@@ -60,7 +60,7 @@ app.use((req, res) => {
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to pocketLawyer application." });
+  res.json({ message: "Welcome to hydraApp application." });
 });
 
 // convert error to ApiError, if needed

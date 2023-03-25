@@ -1,0 +1,39 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" />
+
+    <mj-attributes>
+      <mj-all font-family="Montserrat" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+    <mj-section padding="40px">
+      <mj-column>
+        <mj-text font-size="29px" font-weight="700" color="#222222" padding-bottom="30px"> Registered to waitlist </mj-text>
+
+        <mj-text font-size="18px" color="#9798A4" font-weight="400" line-height="27px" padding-bottom="60px">
+          Hi ! you registered to our waitlist, we love that you want to give readersplug a try.
+        </mj-text>
+
+        <mj-button
+          href="http://localhost:8080"
+          width="100%"
+          inner-padding="25px"
+          border-radius="6px"
+          background-color="#F93975"
+          font-size="22px"
+          font-weight="500"
+          color="#fff"
+        >
+          View Our Website
+        </mj-button>
+
+        <mj-text font-size="11px" color="#9798A4" font-weight="500" padding-top="30px">
+          If you do not recognize this request, please contact
+          <a href="http://localhost:8080"> support </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

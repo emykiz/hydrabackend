@@ -1,0 +1,12 @@
+module.exports.authService = require('./auth.service');
+module.exports.emailService = require('./email.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+// module.exports.convService = require('./conv.service');
+// module.exports.groupService = require('./group.service');
+// module.exports.waitlistService = require('./waitlist.service');
+// module.exports.notificationService = require('./notifications.service');
+// module.exports.noteService = require('./note.service');
+// module.exports.feedService = require('./utils/userFeed');
+// module.exports.transactionService = require('./transaction.service');
+// module.exports.utilService = require('./utils/util.service');

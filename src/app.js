@@ -58,6 +58,11 @@ app.use((req, res) => {
   res.status(404).send(new ApiError(httpStatus.NOT_FOUND, 'Not found'));
 });
 
+// simple route
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to pocketLawyer application." });
+});
+
 // convert error to ApiError, if needed
 app.use(errorConverter);
 
